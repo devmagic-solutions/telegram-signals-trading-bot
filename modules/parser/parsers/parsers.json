@@ -1,0 +1,8 @@
+{
+  "parsers": {
+    "1814507615": {
+      "parser_regex": "(?P<symbol>\\w+) (?P<side>\\w+).*(\\r\\n|\\r|\\n)+.+?(?P<entry_price>(\\d|\\.)+).*(\\r\\n|\\r|\\n)+.+?(?P<take_profit_price>(\\d|\\.)+).*(\\r\\n|\\r|\\n)+.+?(?P<stop_loss_price>(\\d|\\.)+).*(\\r\\n|\\r|\\n)+.+?(?P<leverage>\\d+)"
+    }
+  }
+}
+
